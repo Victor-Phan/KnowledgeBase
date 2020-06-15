@@ -1,0 +1,79 @@
+.img-userImage {
+  border-radius: 50%;
+  min-width: 150px;
+  max-width: 150px;
+  border: 2px solid white;
+  box-shadow: 0px 0px 0.5em #ccc;
+}
+
+.div-questionBox {
+  display: inline-block;
+}
+
+.div--discussionBox-container {
+  color: gray;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-bottom: 1.5em;
+}
+
+.div--discussionBox-title__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div--discussionBox-userImg {
+  display: flex;
+  align-self: top;
+  justify-content: center;
+  flex: 1;
+}
+
+.div-discussionBox-content__wrapper {
+  flex: 2;
+}
+
+.div--discussionBox-subject {
+  font-size: large;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.p-descriptionText {
+}
+
+.div-subjectTopic {
+  display: inline-block;
+}
+
+.div--discussionBox-footer__container {
+    display: flex;
+    font-size: smaller;
+    justify-content: space-between;
+}
+
+.div-date {
+  display: inline-block;
+}
+
+.div-replyNum {
+  display: inline-block;
+}
+
+.span-topic {
+  background-color: white;
+  color: #38a3eb;
+  padding: 2px 5px;
+  margin: 1px 0;
+  border: 2px solid #38a3eb;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  border-style: solid;
+}
+
+.div-replyNum:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

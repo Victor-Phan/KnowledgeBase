@@ -1,0 +1,50 @@
+.div--userDesc-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.div--userInfo-container {
+    justify-content: space-around;
+}
+
+.div--userInfo-container > * {
+    padding: 0.25em;
+}
+
+.img-userPic{
+    border-radius: 50%;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.div--userInfo-username{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+
+.div--userInfo-desc{
+    color: gray;
+    text-align: center;
+}
+
+.div-userStats{
+    color: gray;
+}
+
+.div--userStats-item {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.div--userStats-item a {
+    color: gray;
+}
+
+#div--userStats-profileEdit {
+    margin-top: 2em;
+}

@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS `c4711_finalproject`.`posttype` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `type` VARCHAR(45) NOT NULL UNIQUE,
+  PRIMARY KEY (`id`));

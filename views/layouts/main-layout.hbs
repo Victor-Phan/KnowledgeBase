@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>{{title}}</title>
+  <meta charset="utf-8">
+  <script defer type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script defer type="text/javascript" src="/scripts/errorHandler.js"></script>
+  {{#if passwordCheck}}
+  <script defer type="text/javascript" src="scripts/passwordCheck.js"></script>
+  {{/if}}
+  {{#if homePageJS}}
+  <script defer type="text/javascript" src="scripts/pagination.js"></script>
+  {{/if}}
+  {{#if postJS}}
+  <script defer type="text/javascript" src="/scripts/hidePostReplies.js"></script>
+  <script defer type="text/javascript" src="/scripts/toggle.js"></script>
+  {{/if}}
+  {{#if profileEditCSS}}
+  <link href="/css/profileEdit.css" rel="stylesheet">
+  {{/if}}
+  {{#if homeCSS}}
+  <link href="/css/postReplies.css" rel="stylesheet">
+  <link href="/css/userDashboard.css" rel="stylesheet">
+  <link href="/css/askQuestion.css" rel="stylesheet">
+  <link href="/css/discussionList.css" rel="stylesheet">
+  <link href="/css/discussionBox.css" rel="stylesheet">
+  {{/if}}
+  <link href="/css/root.css" rel="stylesheet">
+  {{#if conversationsCSS}}
+  <link href="/css/conversations.css" rel="stylesheet">
+  {{/if}}
+  {{#if messagingCSS}}
+  <link href="/css/messaging.css" rel="stylesheet">
+  {{/if}}
+  {{#if signupCSS}}
+  <link href="/css/signup.css" rel="stylesheet">
+  {{/if}}
+  {{#if navbarCSS}}
+  <link href="/css/nav_bar.css" rel="stylesheet">
+  {{/if}}
+  {{#if homeCSS}}
+  <link href="/css/home.css" rel="stylesheet">
+  {{/if}}
+  {{#if signinCSS}}
+  <link href="/css/signin.css" rel="stylesheet">
+  {{/if}}
+  {{#if signupCSS}}
+  <link href="/css/signup.css" rel="stylesheet">
+  {{/if}}
+  {{#if profileCSS}}
+  <link href="/css/profile.css" rel="stylesheet">
+  {{/if}}
+  {{#if postCSS}}
+  <link href="/css/post.css" rel="stylesheet">
+  <link href="/css/postReplies.css" rel="stylesheet">
+  {{/if}}
+
+</head>
+
+<body>
+  {{{ body }}}
+</body>
+
+</html>

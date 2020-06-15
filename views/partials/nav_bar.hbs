@@ -1,0 +1,17 @@
+<!--The search header bar including the KB logo, search bar, and logout button.-->
+<div class="div-search">
+    <div class="img-logo-kb">
+        <a href="/"><img src="/img/kb.png"></a>
+    </div>
+    <div class="form-search">
+        <form class="searchEntry" id="searchForm" action="/search" method="GET">
+            <input type="text" name="subject" placeholder="Input search term here" id="searchInputEntry" value="{{term}}">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+    <div class="div-button-logout">
+        <form action="/signout" method="POST">
+            <button class="button-logout">logout</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,78 @@
+.div--questionAsk-container {
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.form--createQuestion {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.form--createQuestion > * {
+    display: flex;
+    flex: 1;
+    margin: 0.25em;
+}
+
+.form--createQuestion textarea {
+    border-radius: 0.25em;
+    font-family: inherit;
+    padding: 1em 1.5em;
+    border: 1px solid #CCC;
+}
+
+.div--form-selector {
+    display: flex;
+    align-items: center;
+}
+
+.div--searchTopic-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.span--header-search {
+    font-weight: bold;
+    flex: 1;
+}
+
+.form--search-topic {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.button-go{
+    display:inline-block;
+    background-color: #38a3eb;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    opacity: 0.9;
+}
+
+.topics{
+    background-color: white;
+    color: #38a3eb;
+    flex: 1;
+    align-self: normal;
+    margin: 1px 0;
+    border-color: #38a3eb;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.button-post{
+    background-color: white;
+    color: #38a3eb;
+    padding: 0.5em 1em;
+    margin: 1px 0;
+    border-color: #38a3eb;
+    cursor: pointer;
+    opacity: 0.9;
+}

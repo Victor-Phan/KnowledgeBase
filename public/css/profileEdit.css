@@ -1,0 +1,19 @@
+.form--edit-profile {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.form--edit-profile > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form--edit-profile label {
+  min-width: 20%;
+}
+
+#input--submit-btn:hover {
+  cursor: pointer;
+}

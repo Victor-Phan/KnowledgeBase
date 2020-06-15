@@ -1,0 +1,18 @@
+<div class="search-results--item-replies">
+  {{#each this.postcomment}}
+  <div class="div--post-reply__container">
+    <div class="post--reply-thumbnail">
+      <a href="/profile/{{this.user_id}}">
+        <img class="img-userImage" src="{{this.image_url}}" alt="{{this.user_id}}" />
+      </a>
+    </div>
+    <div class="post--reply-comment">
+      {{this.comment}}
+    </div>
+  </div>
+  {{/each}}
+  <form action="/postcomment/{{this.id}}" method="POST">
+    <input type="text" placeholder="add your reply..." name="comment" />
+    <input type="submit" value="Add comment" />
+  </form>
+</div>

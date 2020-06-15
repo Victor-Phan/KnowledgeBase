@@ -1,0 +1,87 @@
+#titleImg{
+    width: 60%;
+    height: 7%;
+    float: left;
+    margin-bottom: 9%;
+}
+
+#booksImg {
+    width: 90%;
+    height: 50%;
+    float: left;
+}
+
+.leftside{
+    float:left;
+    height: 100vh;
+    width:  30vw;
+    margin-left: 2%;
+}
+
+.rightside{
+    float:right;
+    height: 100vh;
+    width:  60vw;
+}
+
+.loginDiv{
+    margin-top:1%;
+    margin-bottom: 3%;
+}
+
+.signupDiv{
+    margin-top: 5%;
+}
+
+.descriptionText  h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.signupDiv input, select {
+    width: 70%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .loginDiv input, select {
+    width: 30%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #38a3eb;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+  }
+
+  .signupDiv button {
+    background-color: #38a3eb;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+  }
+
+  .descriptionText{
+    font-size: 30px;
+    width: 70%;
+    font-weight: bold;
+  }

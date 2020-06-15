@@ -1,0 +1,45 @@
+<div class="search-results--item">
+  <div class="search-results--item-thumbnail">
+    <a href="/profile/{{this.user_id}}">
+      <img class="search-userImage" src="{{this.image_url}}" alt="{{this.user_id}}" />
+    </a>
+  </div>
+  <div class="search-results--item-contents">
+    <div class="search-results--item-contents-header">
+      <span class="search-results--item-contents-subject">
+        {{this.subject}}
+      </span>
+      <span class="search-results--item-contents-type">
+        {{this.type}}
+      </span>
+    </div>
+    <div class="search-results--item-contents-message">
+      {{this.message}}
+    </div>
+    <div class="search-results--item-footer">
+      <span class="search-results--item-date">
+        {{this.timestamp}}
+      </span>
+      <span class="search-results--item-replies-count" onclick="toggle_replies(this)">
+        {{this.replies}} replies
+      </span>
+    </div>
+    <div class="search-results--item-replies">
+      {{#each this.postcomment}}
+      <div class="post--reply-container">
+        <div class="post--reply-thumbnail">
+          <img class="search-user-reply-img" src="{{this.image_url}}" alt="{{this.user_id}}" />
+        </div>
+        <div class="post--reply-comment">
+          {{this.comment}}
+        </div>
+      </div>
+      {{/each}}
+      <form action="/postcomment/{{this.id}}" method="POST">
+        <textarea rows="4" cols="50" type="text" placeholder="add your reply..." name="comment"></textarea>
+        <input class="search-post-submit" type="submit" value="Add comment" />
+      </form>
+    </div>
+  </div>
+</div>
+</div>

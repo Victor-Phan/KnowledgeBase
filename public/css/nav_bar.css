@@ -1,0 +1,41 @@
+  
+.img-logo-kb{
+    width: 5%;
+    display: inline-block;
+    position: relative;
+    top:20px;
+}
+
+.form-search{
+    display:inline-block;
+    margin-left: 3%;
+    margin-right:11%;
+}
+
+
+input{
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button-logout{
+    display:inline-block;
+    background-color: #38a3eb;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 8px;
+    border: none;
+    opacity: 0.9;
+}
+
+.div-button-logout{
+    display: inline-block;
+}
+
+.div-search{
+    margin-bottom: 2%;
+}

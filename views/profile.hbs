@@ -1,0 +1,49 @@
+<!--The main profile page for a user.-->
+<!-- not complete with all the actions yet-->
+{{> nav_bar}}
+<div class="div-topSection">
+  <div class="div-leftTop-userInfo">
+    <div class="div-userImg">
+      <img class="img-userPic" src="{{user.image_url}}" alt="{{user.id}}" />
+    </div>
+    <div class="userInfo">
+      <p class="p-username">
+        {{user.first_name}} {{user.last_name}}
+      </p>
+      <p class="p-desc">
+        {{user.about}}
+      </p>
+      <p class="userCountry">
+        {{user.country}}
+      </p>
+    </div>
+  </div>
+  <div class="div-rightTop-likes-messages">
+    <a href="/sendmessage/{{user.id}}" class="a-message">Message</a>
+    <div class="likes">
+      <p class="p-likes">
+        {{user.profileLikes}} Likes
+      </p>
+      <form class="form-likes" action="/like" method="POST">
+        <input type="hidden" name="isLike" value="{{#if hasLiked}}0{{else}}1{{/if}}" />
+        <input type="hidden" name="other_user_id" value="{{user.id}}" />
+        <button type="submit" id="like">{{#if hasLiked}}-{{else}}+{{/if}}</button>
+      </form>
+    </div>
+    <div class="div-posts">
+      <p>
+        {{posts.count}} Posts
+      </p>
+    </div>
+  </div>
+</div>
+<div class="bottomSection-posts">
+  <div class="div-allposts">
+    <p class="p-allposts">All posts by {{user.first_name}}</p>
+  </div>
+  <div class="postList">
+    {{#each posts}}
+    {{>post_content this}}
+    {{/each}}
+  </div>
+</div>

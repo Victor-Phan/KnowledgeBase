@@ -1,0 +1,39 @@
+.leftside{
+    float:left;
+    height: 100vh;
+    width:  30vw;
+    margin-left: 2%;
+}
+
+.rightside{
+    float:right;
+    height: 100vh;
+    width:  50vw;
+    margin-top: 8%;
+}
+
+textarea{
+    width:48%
+}
+
+input, select {
+    width: 50%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 40%
+  }
+
+  button {
+    background-color: white;
+    color: #38a3eb;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border-color: #38a3eb;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+  }

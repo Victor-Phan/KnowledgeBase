@@ -1,0 +1,30 @@
+<!--The landing page for the site. Allows the user to login or signup.-->
+<div id="landingPage">
+    <div class="leftside">
+        <a href="/"><img id="titleImg" src="/img/title.png" /></a>
+        </br>
+        <img id="booksImg" src="/img/vector-knowledge.jpg" />
+    </div>
+    <div class="rightside">
+        <div class="loginDiv">
+            <form  method="POST" action="/signin">
+                <input id="loginEmail" type="email" name="email" placeholder="email" required/>
+                <input id="loginPassword" type="password" name="password" placeholder="password" required/>
+                <button id="loginButton" onclick="" type="submit">login</button>
+              </form>
+        </div>
+        <div class="descriptionText">
+            <h1>Join the worlds largest community for knowledge sharing</h1>
+        </div>
+        <div class="signupDiv">
+            <form method="POST" action="/signup" class="signup" onsubmit="return checkPassword(password,password_check)">
+                <input type="text" name="first_name" placeholder="firstname" required/>
+                <input maxlength="20" type="text" name="last_name" placeholder="lastname" required/>
+                <input maxlength="50" type="email" name="email" placeholder="email" required/>
+                <input type="password" name="password" placeholder="password" required/>
+                <input type="password" name="password_check" placeholder="confirm password" required/>
+                <button type="submit">signup</button>
+            </form>
+        </div>
+    </div>
+</div>

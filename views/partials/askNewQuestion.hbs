@@ -1,0 +1,28 @@
+<div class="div--questionAsk-container">
+    <h2>what's your question today?</h2>
+    <div class="div--form-container">
+        <form class="form--createQuestion" method="POST" action="/posts">
+            <input type="text" class="input-subject" name="subject" placeholder="subject" />
+            <textarea class="textarea-details" placeholder="explain in detail ..." rows="5" name="message"></textarea>
+            <div class="div--form-selector">
+                <select class="topics" name="type">
+                    {{#each postTypes}}
+                    <option value="{{this.id}}">{{this.type}}</option>
+                    {{/each}}
+                </select>
+                <input type="submit" class="button-post" value="post to timeline" />
+            </div>
+        </form>
+    </div>
+    <div class="div--searchTopic-container">
+        <span class="span--header-search">Search by topic</span>
+        <form class="form--search-topic" action="/search" method="GET">
+            <select class="topics" id="topicsSearch" name="type">
+                {{#each postTypes}}
+                <option value="{{this.id}}">{{this.type}}</option>
+                {{/each}}
+            </select>
+            <input type="submit" class="button-go" value="go->" />
+        </form>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+.search-userImage{
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    position: relative;
+    margin-left: 20%;
+}
+
+.search-user-reply-img{
+    border-radius:50%;
+    width: 50%;
+}
+
+.search-results--item-contents{
+    color: gray;
+}
+
+.search-results--item > div{
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.search-results--item-contents-header{
+    display: inline-block;
+    font-size: larger;
+}
+
+.search-results--item-contents-message{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.search-post-submit{
+    display:inline-block;
+    background-color: #38a3eb;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 8px;
+    border: none;
+    opacity: 0.9;
+    margin-top: 1%;
+}
+
+.post--reply-comment{
+    display: flex;
+    position: relative;
+}
+
+.post--reply-container{
+    display: flex;
+    align-items:center;
+}
+
+.search-results--item{
+    display: flex;
+    align-items: top;
+}
+
+.search-results--item-replies-count:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

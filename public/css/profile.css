@@ -1,0 +1,63 @@
+.img-userPic{
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    max-width: 70%;
+    max-height: 70%;
+    margin-left: 2%;
+
+}
+
+.div-leftTop-userInfo{
+    display: inline-block;
+}
+
+.p-username{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.div-topSection{
+    margin-left: 2%;;
+}
+
+.div-rightTop-likes-messages{
+    display:inline-block;
+    margin-left: 3%;
+}
+
+.p-likes{
+    display: inline-block;
+    color: #3268a8;
+    font-weight: bold;
+}
+
+.form-likes{
+    display: inline-block;
+}
+
+.form-likes > button{
+    background-color: #38a3eb;
+    color: white;
+    border-radius: 50%;
+}
+
+.div-posts > p {
+    color: #3268a8;
+    font-weight: bold;
+}
+
+.a-message{
+    background-color:#3268a8;
+    color: white;
+    padding: 5%;
+}
+
+.div-allposts{
+    margin-left: 2%;
+}
+
+.p-allposts{
+    font-weight: bold;;
+}

@@ -1,0 +1,37 @@
+CONTROLLERS
+home
+|
+|---/login [GET, POST]
+|
+|---/signup [GET, POST]
+|
+|---/profile [GET]
+|
+|---/search?=params [GET]
+|
+|---/users [GET]
+|       |
+|       |---/:user_id [GET]
+|             |
+|             |---/message [GET, POST]
+|
+|---/messages [GET]
+        |
+        |---/:user_id [GET]
+
+SITEMAP
+/
+|
+|---/login [GET, POST]
+|
+|---/signup [GET, POST]
+|
+|---/profile [GET]
+|
+|---/search?=params [GET]
+|
+|---/users [GET]
+       |
+       |---/:user_id [GET]
+             |
+             |---/message [GET, POST]

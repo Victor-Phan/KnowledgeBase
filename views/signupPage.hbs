@@ -1,0 +1,17 @@
+<!--The second page of signing up. This is how the user completes registration.-->
+<div class="signupDetails">
+    <div class="leftside">
+        <a href="/"><img id="titleImg" src="/img/title.png" /></a>
+        <h1>Let us know a little more about you</h1>
+    </div>
+    <div class="rightside">
+        <form id="signupDetailsForm" method="POST" action="/register">
+            <input type="text" placeholder="imageurl" name="image_url" id="url">
+            <textarea type="text" rows="5" name="about" id="details"
+                placeholder="a few lines about yourself..."></textarea>
+            <input type="text" placeholder="country" name="country" id="country"></input>
+            <input type="date" name="dob" placeholder="date of birth (mm/dd/yyyy)"></input>
+            <button type="submit">complete registration</button>
+        </form>
+    </div>
+</div>
