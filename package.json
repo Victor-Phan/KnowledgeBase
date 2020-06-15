@@ -1,7 +1,7 @@
 {
   "name": "comp4711_project",
   "version": "1.0.0",
-  "description": "Final project for BCIT COMP4711 ",
+  "description": "Final project for BCIT COMP4711",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hchho/COMP4711_Project.git"
+    "url": "git+https://https://github.com/Victor-Phan/KnowledgeBase.git"
   },
   "author": "Henry Ho, Tomas Quat, Victor Phan, Zafir Damani",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hchho/COMP4711_Project/issues"
+    "url": "https://github.com/Victor-Phan/KnowledgeBase/issues"
   },
-  "homepage": "https://github.com/hchho/COMP4711_Project#readme",
+  "homepage": "https://github.com/Victor-Phan/KnowledgeBase#readme",
   "dependencies": {
     "bcrypt": "4.0.1",
     "body-parser": "^1.19.0",
